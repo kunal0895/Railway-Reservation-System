@@ -1,0 +1,48 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin2.master.cs" Inherits="RailwayReservationPart1.Admin2" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+     <title></title>
+    <script type="text/javascript">
+        function ConfirmOnDelete(item)
+        {
+          if (confirm("Are you sure to delete: " + item + "?")==true)
+            return true;
+          else
+            return false;
+        }
+    </script>
+    <link rel="stylesheet" type="text/css" href="~/Styles/StyleSheet3.css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="wrapper">
+            <div id="banner">
+
+            </div>
+            <div id="navigation">
+                 <ul id="nav">
+                    <li><a href="AHome.aspx">Account</a></li>
+                    <li><a href="ATrain.aspx">Update Train</a></li>
+                    <li><a href="ATrain.aspx">Update Route</a></li>
+                    <li><a href="ATrain.aspx">Availability</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+            </div>
+            <div id="content_area">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+                </asp:ContentPlaceHolder>
+            </div>
+            <div id="footer">
+                <br/>
+                <p>Use your time wisely.</p>
+                <p>You are a valuable employee to the company.</p>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

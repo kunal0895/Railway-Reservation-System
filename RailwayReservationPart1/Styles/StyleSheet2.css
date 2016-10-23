@@ -1,0 +1,26 @@
+﻿body 
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /background-color:#000000;
+    background-image:url('../Images/1.jpg');
+    color: #FFFFFF;
+}
+
+#wrapper
+{
+    width: 1000px;
+    height:auto;
+    margin: 0 auto;
+    padding:4px;
+    border:1px solid #b5afaf;
+    background-image:url('../Images/1.jpg');
+}
+
+#sidebar
+{
+    float:left;
+    width: 340px;
+    height:570px;
+    margin: 20px 10 20px 10;
+    //border:1px solid #E3E3E3;
+}

@@ -1,0 +1,46 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="RailwayReservationPart1.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>INDIAN RAILWAYS</title>
+    <link rel="stylesheet" type="text/css" href="~/Styles/StyleSheet1.css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="wrapper">
+            <div id="banner">
+
+            </div>
+            <div id="navigation">
+                <ul id="nav">
+                    <li><a href="Account.aspx">Account</a></li>
+                    <li><a href="Search.aspx">Check Availability</a></li>
+                    <li><a href="Search.aspx">Book Tickets</a></li>
+                    <li><a href="PNRStatus.aspx">PNR Status</a></li>
+                    <li><a href="Contact.aspx">Contact Us</a></li>
+                    <li><a href="About.aspx">About Us</a></li>
+                </ul>
+            </div>
+            <div id="content_area">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div id="footer">
+                <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/Payments.png" Height="100px" ImageAlign="Left" Width="1198px"/>
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                
+                <br />
+                Copyright@2016. All rights reserved.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                
+            </div>
+        </div>
+    </form>
+</body>
+</html>
